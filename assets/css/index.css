@@ -409,6 +409,16 @@ div.option.option.js{
     margin-bottom:10px;
   }
 
+  .layoutquemsomos{
+      display:flex;
+      justify-content:center;
+      text-align:center;
+      
+  }
+  h2{
+      margin-left: 10px;
+  }
+
  .flex-container-marcas{
      text-align: center;
  }
