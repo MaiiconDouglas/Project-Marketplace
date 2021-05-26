@@ -645,3 +645,51 @@ div.option.option.js{
 .imgcontato{
     margin-left:50px;
 }
+
+/* Novo */
+
+form {
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    gap: 0.75rem;
+    background: #080808d8;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 8px 40px -5px rgba(0, 0, 0, 0.06);
+  }
+  
+  form > * {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  form label[for] {
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    form {
+      border-radius: 4px;
+      flex-flow: row;
+      flex-wrap: wrap;
+    }
+  
+    form > * {
+      flex: 1 0 calc(50% - 0.75rem);
+    }
+  }
+  
+  @media (min-width: 980px) {
+    form {
+      max-width: 980px;
+    }
+  
+    table {
+      max-width: 980px;
+    }
+  }
