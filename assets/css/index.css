@@ -131,7 +131,7 @@ nav a{
     /* background-color: #ffce00;
 }  */
 
-h2 {
+h2,h3 {
     display: block;
     justify-content: center;
     padding: 15px;
@@ -139,6 +139,12 @@ h2 {
     text-transform: uppercase;
     color: rgb(20, 18, 18);
     font-family:  Ariel;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
 }
 /*Carrousel*/
 img {
