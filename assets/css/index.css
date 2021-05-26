@@ -238,6 +238,8 @@ ul a:hover {
     justify-content: center;
     height: 100vh;
 }
+
+
 .container-flex {
     display: flex;
     flex-direction: row;
@@ -465,6 +467,11 @@ div.option.option.js{
     border-spacing:unset;
     margin-right:2px;
 }
+
+.fale{
+    margin-left: 10px;
+    margin-top:25px;
+}
 .k1{
     display:flex;
     background-color: #f7f7f7;
@@ -620,4 +627,15 @@ div.option.option.js{
         width:450px;
         margin:1%;
         padding:1%; */
-    }   
+    } 
+    
+    .contatos{
+        display:flex;
+        justify-content:left;
+        align-items:flex-start;
+        margin-top: 10px;
+    }
+
+.imgcontato{
+    margin-left:50px;
+}
