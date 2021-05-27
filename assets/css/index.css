@@ -53,7 +53,7 @@ text-shadow:0px 0px 5px #fff;
     top:25px;
     left:0;
     text-decoration:none; 
-    background-color: white;
+    /* background-color: white; */
     display:none;
 }
 
