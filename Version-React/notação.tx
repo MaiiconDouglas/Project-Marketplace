@@ -1,9 +1,0 @@
-// Quando der erro no router dom estalar essa dependencies
-yarn add @types/react-router-dom -D
-
-yarn add next react react-dom
-https://nextjs.org/docs
-
-
-https://react-icons.github.io/react-icons/
-npm install react-icons --save
