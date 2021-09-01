@@ -1,139 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head class="top">
-        <link rel="stylesheet" href="index.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/motos.css">
 
-        <link rel="shortcut icon" href="assets/image/logo.ico" />
-        <link rel="stylesheet" type="text/css"  href="assets/css/index.css">
-        <title>SUZUKI</title>
-
-    </head>
-    <body>
-
-        <header class="top">
-            <a href="index.html">
-                <img src="assets/image/logo-dark.png" alt=" LOGOMARCA"> <!--Logo-->
-
+    <title>SUZUKI</title>
+  </head>
+  <body>
+    <main>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-secondary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+            <img src="assets/image/logo-dark.png" alt="Logo marca da GPmotos" width="270" height="80">
             </a>
-
-  
-            <!-- Novo -->
-
-                
-            <div class="navbar">
-                <a href="index.html">
-                    INICIo
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="honda.html">INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MOTOS
                 </a>
-            
-                <div class="dropdown">
-            
-                    <button class="dropbtn">
-                        MOTOS
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-            
-                    <div class="dropdown-content">
-                      <a href="compras.html">COMPRAS</a>
-                      <a href="vendas.html">VENDAS</a>
-                      <a href="trocas.html">TROCAS</a>
-                    </div>
-                </div> 
-            
-                <a href="quemsomos.html">QUEM SOMOS</a>
-            
-                <a href="fale.html">FALE CONOSCO</a>
-            
-                <div class="dropdown">
-            
-                    <button class="dropbtn">
-                        LOGIN
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-            
-                    <div class="dropdown-content">
-                        <a href="login.html">Entrar</a>
-                        <a href="cadastro.html">Cadastre-se</a>          
-                    </div>
-                </div> 
-               
-            
-              </div>
-            
-                        <!-- <div class="menu">
-                            <nav >
-                                <ul>
-                                    <li><a href="index.html">Início</a></li>
-                                    <li><a href="#">Motos</a>
-                                        <ul>
-                                            <li><a href="compras.html">Compras</a></li>
-                                            <li><a href="vendas.html">Vendas</a></li>
-                                            <li><a href="trocas.html">Trocas</a></li>                              
-                                        </ul>
-                                    </li>
-                                    <ul>
-                                        <li><a href="">Sobre nós</a>
-                                        <ul>
-                                            <li><a href="quemsomos.html">Quem Somos</a></li>
-                                            <li><a href="fale.html">Fale Conosco</a></li>
-                                        </ul>
-                                        </li>
-                                    </ul>
-                                    </li>
-                                    <li><a href="#">Login</a>  
-                                        <ul>
-                                            <li></li>
-                                             <li><a href="login.html">Entrar</a></li>
-                                             <li><a href="cadastro.html">Cadastre-se</a></li>                                                
-                                          </ul>
-                                        </li>
-                                </ul>                                
-                            </nav>
-                    </div>         
-                    -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">COMPRAS</a></li>
+                    <li><a class="dropdown-item" href="#">VENDAS</a></li>
+                    <li><a class="dropdown-item" href="#">TROCAS</a></li>
+                    <li><a class="dropdown-item" href="#">FINANÇAS</a></li>
+                </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SOBRE NÓS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">QUEM SOMOS</a></li>
+                    <li><a class="dropdown-item" href="#">FALE CONOSCO</a></li>
+                </ul>
+                </li>
 
-        </header>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    LOGIN
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">LOGIN</a></li>
+                    <li><a class="dropdown-item" href="#">CADASTRO</a></li>
+                </ul>
+                </li>
+            
+            </div>
+        </div>
+        </nav>
+
+        <div class="text-center">
+        <img src="https://seeklogo.com/images/S/suzuki-logo-5311518DD9-seeklogo.com.png"  class="img=responsive" width="200" height="200" alt="Logo da fabricante de motos honda">
+        </div>
+
+        <div class="container">
+        <div class="row justify-content:center">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 15rem;">
+                <img src="assets/image/cg160titan.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+            <div class="card-body">
+                <h5 class="card-title">CG 160 2020</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row justify-content:center">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 15rem;">
+                <img src="assets/image/cg160titanblue.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+            <div class="card-body">
+                <h5 class="card-title">CG 160 2020</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+            </div>
+            </div>
+        </div>
         
-        <body>
-            <div class="logSUZU">
-                <img src="https://seeklogo.com/images/S/suzuki-logo-5311518DD9-seeklogo.com.png" alt="placehold" style="width:180px">
+        <div class="row justify-content:center">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 15rem;">
+                <img src="assets/image/cgstart.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+            <div class="card-body">
+                <h5 class="card-title">CG 160 2020</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
             </div>
+            </div>
+            </div>
+        </div>
+    
+        <div class="row justify-content:center">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 15rem;">
+                <img src="assets/image/elite.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+            <div class="card-body">
+                <h5 class="card-title">CG 160 2020</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+            </div>
+            </div>
+        </div>
 
-            <div class="flex-container">
-                <div class="S1">
-                    <a href="suzuki/gxsr1000a.html">
-                    <img src="https://u.motoscdn.com.br/websites/CDHSQG/pages/JBSJMSO2/2XOGI3OK912D/image/3365/conversions/GSX-R1000AL7_YSF_R-site-desktop-ofertas.png?v=3813065b" alt="placehold" style="width:240px">
-                    <p> gsr1000a</p>
-                    <p>R$ 52,261</p>
-                    </a>
-                </div>
-                <div class="S2">
-                    <a href="suzuki/gsxs1000a.html">
-                    <img src="https://u.motoscdn.com.br/websites/CDHSQG/pages/JBSJMSO2/QWHJSCZW75WW/image/3400/conversions/GSX-S1000YAL9_YWW-site-EDITADO-ofertas.png?v=448396ee" alt="placehold" style="width:240px">
-                    <p> gsxs 1000a</p>
-                    <p>R$ 67,718</p>
-                    </a>
-                </div>
-                <div class="S3">
-                    <a href="suzuki/hayabusa.html">
-                    <img src="https://u.motoscdn.com.br/websites/CDHSQG/pages/JBSJMSO2/TNZ07GASMJVJ/image/7107/conversions/HAYABUSA-RED-LADO-ofertas.png?v=6587f02e" alt="placehold" style="width:240px">
-                    <p> hayabusa</p>
-                    <p>R$ 85,829</p>
-                    </a>
-                </div>
-                <div class="S4">
-                    <a href="suzuki/gsx-r1000.html">
-                    <img src="https://u.motoscdn.com.br/websites/CDHSQG/pages/JBSJMSO2/E7BD1ORDGRV9/image/7038/conversions/GSX-S1000YAL9_YWW-site-EDITADO-ofertas.png?v=130187ea" alt="placehold" style="width:240px">
-                    <p> gsx-r1000</p>
-                    <p>R$ 84,487</p>
-                    </a>
-                </div>
-            </div>
-            <footer class="footer">
-                Copyright © 2021 - Todos os Direitos Reservados
-              </footer>
-        </body>
-    </html>
+        </div>
+
+    <div class="container">
+    <div class="row justify-content:center">
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 15rem;">
+            <img src="assets/image/xre300black.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+        <div class="card-body">
+            <h5 class="card-title">CG 160 2020</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row justify-content:center">
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 15rem;">
+            <img src="assets/image/xre300white.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+        <div class="card-body">
+            <h5 class="card-title">CG 160 2020</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row justify-content:center">
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 15rem;">
+            <img src="assets/image/xre300yellow.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+        <div class="card-body">
+            <h5 class="card-title">CG 160 2020</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row justify-content:center">
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 15rem;">
+            <img src="assets/image/hon6.jpeg" class="card-img-top" alt="Moto honda CG 160 2020 vermelha">
+        <div class="card-body">
+            <h5 class="card-title">CG 160 2020</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+<footer class="bg-secondary text-white mt-2 text-center">
+  Copyright © 2021 - Todos os Direitos Reservados
+</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  </body>
+</html>
