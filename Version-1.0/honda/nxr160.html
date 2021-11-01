@@ -1,108 +1,123 @@
-<!DOCTYPE html>
-    <html>
-    <head class="top">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="../../assets/image/logo.ico" />
-        <link rel="stylesheet" type="text/css"  href="../../assets/css/index.css">
-        
-        <!-- Title -->
-        <title>GPMOTOS</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="/Version-1.0/assets/css/motos.css">
+
+        <title>HONDA NXR 160 | GP MOTOS</title>
     </head>
+
     <body>
-        <header class="top">
-            <a href="../../index.html">
-                <img src="../../assets/image/logo-dark.png" alt=" LOGOMARCA"> <!--Logo-->
-            </a>
+        <header>
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-secondary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Version-1.0/index.html">
+                    <img src="/Version-1.0/assets/image/logo-dark.png" alt="Logo marca da GPmotos" width="270" height="80">
+                </a>
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-           
-            <!-- Novo -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                
-  <div class="navbar">
-    <a href="index.html">
-        INICIo
-    </a>
-
-    <div class="dropdown">
-
-        <button class="dropbtn">
-            MOTOS
-          <i class="fa fa-caret-down"></i>
-        </button>
-
-        <div class="dropdown-content">
-          <a href="compras.html">COMPRAS</a>
-          <a href="vendas.html">VENDAS</a>
-          <a href="trocas.html">TROCAS</a>
-        </div>
-    </div> 
-
-    <a href="quemsomos.html">QUEM SOMOS</a>
-
-    <a href="fale.html">FALE CONOSCO</a>
-
-    <div class="dropdown">
-
-        <button class="dropbtn">
-            LOGIN
-          <i class="fa fa-caret-down"></i>
-        </button>
-
-        <div class="dropdown-content">
-            <a href="login.html">Entrar</a>
-            <a href="cadastro.html">Cadastre-se</a>          
-        </div>
-    </div> 
-   
-
-  </div>
-
-            <!-- <div class="menu">
-                <nav >
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="#">Motos</a>
-                            <ul>
-                                <li><a href="compras.html">Compras</a></li>
-                                <li><a href="vendas.html">Vendas</a></li>
-                                <li><a href="trocas.html">Trocas</a></li>                              
-                            </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Version-1.0/index.html">INICIO</a>
                         </li>
-                        <ul>
-                            <li><a href="">Sobre nós</a>
-                            <ul>
-                                <li><a href="quemsomos.html">Quem Somos</a></li>
-                                <li><a href="fale.html">Fale Conosco</a></li>
-                            </ul>
-                            </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MOTOS
+                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/Version-1.0/compras.html">COMPRAS</a></li>
+                            <li><a class="dropdown-item" href="#">VENDAS</a></li>
+                            <li><a class="dropdown-item" href="#">TROCAS</a></li>
+                            <li><a class="dropdown-item" href="#">FINANÇAS</a></li>
                         </ul>
                         </li>
-                        <li><a href="#">Login</a>  
-                            <ul>
-                                <li></li>
-                                 <li><a href="login.html">Entrar</a></li>
-                                 <li><a href="cadastro.html">Cadastre-se</a></li>                                                
-                              </ul>
-                            </li>
-                    </ul>                                
-                </nav>
-        </div>         
-        -->
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SOBRE NÓS
+                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/Version-1.0/quemsomos.html">QUEM SOMOS</a></li>
+                            <li><a class="dropdown-item" href="/Version-1.0/faleconosco.html">FALE CONOSCO</a></li>
+                        </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                LOGIN
+                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/Version-1.0/Login.html">LOGIN</a></li>
+                            <li><a class="dropdown-item" href="/Version-1.0/cadastro.html">CADASTRO</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+           </div>
+        
+           </nav>
         </header>
-    <body>
-        <div class="showroom">
-            <img src="../assets/image/nxr160bros.jpeg" alt="placehold" style="width:500px">  
-        </div>       
-        <div class="ficha">
-            <h2>Honda NXR 160 BROS</h2>
-            <h3>R$ 14,400</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, delectus saepe. Perferendis, 
-                iusto totam maxime ratione minima aperiam provident omnis ea ut eligendi. Corrupti harum, similique officiis
-                quasi doloremque illo.</p>
-            <button>Comprar</button>
-        </div>       
+        <article>
+            <section>
+                <div class="row">
+                    <div class="col-md-6">
+                       <img class ="fotoDaMoto" src ="/Version-1.0/assets/image/nxr160bros.jpeg" style="width:85%" alt = "Honda biz, ano 2021, cor vermelha. A venda na GPmotos Taquaritinga-SP">
+                   </div>
+
+                   <div class="col-md-6">
+                        <div class="quadro">
+                            <div class="quadro__infos">
+                                <h1>HONDA NXR 160 2015</h1>
+                                <div>
+                                    <h3>Aceitamos pagamentos com cartão de crédito e débito  com as seguintes bandeiras</h3>
+                                    <ul class="listaPagEsp">
+                                        <li><img src ="/Version-1.0/assets/image/logoAmerican.png" style="width:8%"> American Express</li>
+                                        <li><br></li>
+                                        <li><img src ="/Version-1.0/assets/image/logoElo.png" style="width:8%"> Elo</li>
+                                        <li><br></li>
+                                        <li><img src ="/Version-1.0/assets/image/logoMaster.png" style="width:8%"> Mastercard</li>
+                                        <li><br></li>
+                                        <li><img src ="/Version-1.0/assets/image/logoVisa.png" style="width:8%"> Visa</li>
+                                    </ul>
+
+                                    <h4>Ou Então pague diretamente em nossa loja após verificar o valor e os métodos de financiamento</h4>
+
+                                    <h4>R$ 11,522 à vista</h4>
+                                    <br>
+                                    <h5>Financiamentos</h5>
+                                    <ul class="listaPagEsp">
+                                        <li>Parcelamento em 8 vezes de R$ 1440,25</li>
+                                        <li>Parcelamento em 6 vezes de R$ 1920,33 </li>
+                                        <li>Parcelamento em 4 vezes de R$ 2880,50</li>
+                                        <li>Parcelamento em 2 vezes de R$ 5761,00</li>
+                                    </ul>
+
+                                    <div>
+                                        <button type="button" class="btn btn-warning" style="width:50%" style="color:white">COMPRAR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </section>
+        </article>
+
+        <footer class="bg-secondary text-white mt-2 text-center">
+            Copyright © 2021 - Todos os Direitos Reservados
+        </footer>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
+       
